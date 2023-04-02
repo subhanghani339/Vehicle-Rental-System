@@ -105,6 +105,7 @@ var Motorcycle = /** @class */ (function (_super) {
   };
   return Motorcycle;
 })(Vehicle);
+
 var car = new Car("Toyota", "Corolla", 2022, 4);
 car.rent();
 car.return();
